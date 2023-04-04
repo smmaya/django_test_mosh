@@ -1,7 +1,5 @@
-from django.core.management import templates
 from django.shortcuts import render
 from django.http import HttpResponse
-
 
 def calculate():
     x = 1
