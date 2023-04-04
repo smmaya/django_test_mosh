@@ -8,7 +8,6 @@ def calculate():
     y = 2
     return x + y
 
-
 # Create your views here.
 def index(request):
     return render(request, 'index.html')
